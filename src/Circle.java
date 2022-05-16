@@ -11,5 +11,18 @@ public class Circle{
           area = radius * radius * 3.14159;
           System.out.println("Area is: " + area);
       }
+      // Nested loops
+      int i = 1;
+      int j = 1;
+      int k = 1;
+      if (i > k){
+          if (j > k ){
+              System.out.println("i and j are greater than k");
+          }
+      }
+      else {
+          System.out.println("i is less than or equal to k");
+      }
+      // Nested loops ends
     }
 }

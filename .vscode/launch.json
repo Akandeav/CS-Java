@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BodyMassIndex",
+            "request": "launch",
+            "mainClass": "BodyMassIndex",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubtractQuiz",
+            "request": "launch",
+            "mainClass": "SubtractQuiz",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch Circle",
             "request": "launch",
             "mainClass": "Circle",
