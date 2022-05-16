@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AssignmentZeller",
+            "request": "launch",
+            "mainClass": "AssignmentZeller",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch BodyMassIndex",
             "request": "launch",
             "mainClass": "BodyMassIndex",
