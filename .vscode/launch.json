@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RecursiveLinearSearch",
+            "request": "launch",
+            "mainClass": "RecursiveLinearSearch",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataSize",
+            "request": "launch",
+            "mainClass": "DataSize",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Money",
+            "request": "launch",
+            "mainClass": "Money",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch AssignmentZeller",
             "request": "launch",
             "mainClass": "AssignmentZeller",

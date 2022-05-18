@@ -9,7 +9,7 @@ public class BodyMassIndex {
         float w = input.nextFloat();
         System.out.println("Enter your height in meters");
         float h = input.nextFloat();
-
+        input.close();
         double BMI = calcBMI(h, w);
         if (BMI < 18.5) System.out.println("You are underweight");
         else if (BMI >= 18.5 || BMI < 25.0 ) System.out.println("You are Normal weight");
