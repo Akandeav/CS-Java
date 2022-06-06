@@ -46,12 +46,14 @@ public class Money {
         float amount = myObj.nextFloat();
         myObj.close(); // Close scanner object
         // Process user input
-        double round = Math.floor(amount);
-        DecimalFormat df = new DecimalFormat("#.##");
-        float cents = Float.parseFloat(df.format(amount - round));
+        //double round = Math.floor(amount);
+        //DecimalFormat df = new DecimalFormat("#.##");
+        //float cents = Float.parseFloat(df.format(amount - round));
+        int round = (int) amount;
+        float cents = amount - round;
         int[] intArray = {0, 0, 0, 0, 0};
         int [] result = findAmount(cents, intArray);
-        System.out.println("You have");
+        System.out.println("You have" + cents);
         System.out.println();
         // Print result
         System.out.println(round + " Dollar(s)");

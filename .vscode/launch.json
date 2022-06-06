@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Tami",
+            "request": "launch",
+            "mainClass": "Tami",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MidReverseArray",
+            "request": "launch",
+            "mainClass": "MidReverseArray",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimesTable",
+            "request": "launch",
+            "mainClass": "TimesTable",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch RecursiveLinearSearch",
             "request": "launch",
             "mainClass": "RecursiveLinearSearch",
