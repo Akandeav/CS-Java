@@ -39,6 +39,6 @@ public class Fibonacci {
         }
     }
     public static void main (String[] args){
-        series(5, 0, 0);
+        fib(50);
     }
 }

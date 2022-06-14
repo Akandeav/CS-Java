@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AddMatrix",
+            "request": "launch",
+            "mainClass": "AddMatrix",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixMult",
+            "request": "launch",
+            "mainClass": "MatrixMult",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch Tami",
             "request": "launch",
             "mainClass": "Tami",
