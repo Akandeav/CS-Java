@@ -1,6 +1,10 @@
 import java.util.Scanner;
 public class Palindrome {
     public static void main (String[] args){
+        /*
+         * AKANDE VICTOR ADEOLA 
+         * EU210102-2535
+         */
         Scanner word = new Scanner(System.in);
         String ch = word.next();
         word.close();
