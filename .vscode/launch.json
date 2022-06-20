@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UseRectangle",
+            "request": "launch",
+            "mainClass": "UseRectangle",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Datatypes",
+            "request": "launch",
+            "mainClass": "Datatypes",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",
