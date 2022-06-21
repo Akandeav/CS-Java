@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorOverloading",
+            "request": "launch",
+            "mainClass": "ConstructorOverloading",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodOverloading",
+            "request": "launch",
+            "mainClass": "MethodOverloading",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch UseRectangle",
             "request": "launch",
             "mainClass": "UseRectangle",
