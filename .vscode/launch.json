@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CircleProblems",
+            "request": "launch",
+            "mainClass": "CircleProblems",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quadratic",
+            "request": "launch",
+            "mainClass": "Quadratic",
+            "projectName": "csjava_519aa1b7"
+        },
+        {
+            "type": "java",
             "name": "Launch RandomInt",
             "request": "launch",
             "mainClass": "RandomInt",

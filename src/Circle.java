@@ -1,28 +1,27 @@
+// AKANDE VICTOR ADEOLA
+// CIRCLE CLASS
 public class Circle{
-    public static void main(String[] args){
-     // final double PI = 3.14159;
-      //final int MINOR = 18;
-      double area;
-      double radius = 5.0;
-      if (radius < 0){
-          System.out.println("Incorrect Input");
-      }
-      else {
-          area = radius * radius * 3.14159;
-          System.out.println("Area is: " + area);
-      }
-      // Nested loops
-      int i = 1;
-      int j = 1;
-      int k = 1;
-      if (i > k){
-          if (j > k ){
-              System.out.println("i and j are greater than k");
-          }
-      }
-      else {
-          System.out.println("i is less than or equal to k");
-      }
-      // Nested loops ends
+    double radius;
+    double degree;
+    final double PI = 3.12467;
+    public Circle(double r){
+        this.radius = r;
+    }
+    public Circle(double r, double d){
+        this.radius = r;
+        this.degree = d;
+    }
+
+    public  double getArea(){
+        double a = PI * (this.radius * this.radius);
+        return a;
+    }
+    public double getCircumference(){
+        double c = 2 * PI * this.radius;
+        return c;
+    }
+    public double getSector(){
+        double s = (this.radius * this.radius) * (this.degree / 2);
+        return s;
     }
 }
